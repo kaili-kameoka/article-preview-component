@@ -20,6 +20,10 @@ body {
 	background-color: var(--light-grayish-blue);
 }
 
+img {
+	display: block;
+}
+
 .article {
 	box-shadow: 0 40px 40px hsla(210, 11%, 88%, 1);
 }
@@ -182,7 +186,7 @@ body {
 	}
 
 	.article__thumbnail img {
-		width: 120%;
+		width: 130%;
 	}
 
 	.article__excerpt {
@@ -198,7 +202,7 @@ body {
 	}
 
 	.meta {
-		grid-area: meta-share;
+		padding-bottom: 0;
 	}
 	
 	.meta--hidden {
